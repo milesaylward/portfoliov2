@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Miles Aylward| Web Developer</title>
+		<meta name="keywords" content="web development, portfolio, javascript portfolio, Miles Aylward, portfolio" />
+		<meta name="author" content="Miles Aylward" />
+    <meta name="description" content="Hi, Im Miles Aylward an well versed Web Developer based out of Virginia Beach, Virginia.">
+    <style media="screen">
+      #loading {
+        position: absolute; z-index: 9999; width: 100%; height: 100%; background: url('images/Preloader_8.gif') no-repeat center center;
+      }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <link href="https://file.myfontastic.com/dRSapaSTwZJGy5EBVDmKhJ/icons.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="markdownPreviewer/markdown.css">
+    <link rel="stylesheet" href="tic-tac-toe/main.css">
+    <link rel="stylesheet" href="weatherApp/weather.css">
+    <link rel="stylesheet" href="youtubeApp/youtube.css">
+    <link rel="stylesheet" href="blog/blog.css">
+    <link rel="stylesheet" href="css/education.css">
+    <link rel="stylesheet" href="reportCard/css/badges.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="js/modernizr.custom.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" charset="utf-8"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0FRiD9XG84hCwW_VWjU7XepZWZlsbsh0&p" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(window).ready(function() {
+        $('#loading').delay(4000).fadeOut(1000, () => {
+          $('.app-container').fadeIn(1000);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="loading"></div>
+		<div class="app-container">
+			<div id="app-main" class="app-main">
+				<section id="about">
+					<div class="home-box">
+						<h2>
+              <i class="icons icon-info"></i>
+              <br>
+              About
+            </h2>
+					</div>
+					<div class="app-content">
+            <div>
+              <img src="images/profile2.jpg" alt="Miles holding an awesome Bird!" class="profile">
+            </div>
+            <h2 class='intro'>
+              <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, my name is Miles Aylward.", "I am a Front End Developer from Virginia Beach", "I Love to develop in JavaScript", "I build Websites and Applications." ]'>
+                <span class="wrap"></span>
+              </a>
+            </h2>
+            <p>
+              I'm an ex-chef turned developer. At the age of 23, I decided to embark on a journey to find my passion in life and leave the restaurant industry behind.
+              I wanted to do this so that I wouldn't be 40 years old, burnt out, and drained from working jobs I simply didn't love.
+              After doing a massive deep dive into career opportunities, I found myself wanting to be part of the tech industry.
+              It's booming and always changing the world, therefore I explored the option of development by enrolling in a basics of web design course.
+              Upon completion, I was hooked. I started picking up every course about every language I stumbled upon.
+              In my first week, I was creating sites from scratch. Over the next couple of months, I was building web apps and learning new languages.
+              Once I built up my confidence, I defined my skillset by dedicating my education and practice to JavaScript, primarly focused on ReactJS.
+              I am a self taught developer who is passionate, adaptable, and eager to break into the industry.
+              I have made learning into my passion and developed a logical mind geared towards problem solving,
+              as well as a penchant for being the very best at anything placed in front of me.
+            </p>
+					</div>
+					<span class="icons icon-cancel" id="close-about"></span>
+				</section>
+				<section id="portfolio">
+					<div class="home-box">
+            <h2>
+              <i class="icons icon-briefcase"></i>
+              <br>
+              Portfolio
+            </h2>
+					</div>
+					<div class="app-content">
+            <h2>My Work</h2>
+            <p>A small sample of some of my Professional &amp; Pro-Bono work as well as some personal projects. Click the images and scroll through my works!</p>
+            <ul id="portfolio-items">
+              <li data-panel="panel-1">
+                <a href="#">
+                  <img class="project-image" src="images/route247.png">
+                </a>
+              </li>
+              <li data-panel="panel-2">
+                <a href="#">
+                  <img class="project-image" src="images/ecds.png">
+                </a>
+              </li>
+              <li data-panel="panel-3">
+                <a href="#">
+                  <img class="project-image" src="images/psd2html.png">
+                </a>
+              </li>
+              <li data-panel="panel-4">
+                <a href="#">
+                  <img class="project-image" src="images/simon.png">
+                </a>
+              </li>
+              <li data-panel="panel-5">
+                <a href="#">
+                  <img class="project-image" src="images/Markdown_previwer.png">
+                </a>
+              </li>
+              <li data-panel="panel-6">
+                <a href="#">
+                  <img class="project-image" src="images/tic-tac-toe.png">
+                </a>
+              </li>
+              <br>
+              <li data-panel="panel-7">
+                <a href="#">
+                  <img class="project-image" src="images/react-redux.png" alt="react-redux">
+                </a>
+              </li>
+              <li class="react-panel" data-panel="panel-8">
+                <a href="#">
+                  <img class="project-image react" src="images/react.png" alt="react" class="framework-image" id="react-image">
+                </a>
+              </li>
+              <li data-panel="panel-9">
+                <a href="#">
+                  <img class="project-image" src="images/react-axios.png" alt="react-axios" class="framework-image">
+                </a>
+              </li>
+              <li data-panel="panel-10">
+                <a href="#">
+                  <img class="project-image" src="images/graphQL-react.png" />
+                </a>
+              </li>
+            </ul>
+					<span class="icons icon-cancel"></span>
+				</section>
+				<section>
+					<div class="home-box">
+            <h2>
+              <i class="icons icon-graduation-cap"></i>
+              <br>
+              Education
+            </h2>
+					</div>
+					<div class="app-content">
+            <div class="education-header">
+              <img src="images/yoda.png" alt="Much to learn, you still have. Yoda" class="yoda">
+            </div>
+            <p>
+              As the 900 year old Jedi Master said himself, your education never stops.
+              The pursuit of knowledge is one of the most important things in life.
+              And this simple concept is what has driven me, a Culinary Arts Student,
+              to take on the mantle of Web Developer. It hasn't always been an easy road,
+              not that I expected it would be, but it has been far more fulfilling than
+              I could've imagined. Below are a few of my certifications and areas where
+              I have studied.
+            </p>
+            <ul class="education-list">
+              <li><a href="#" id="treehouseBTN">Check Out My Treehouse Score</a></li>
+              <li><a href="#" id="fccBTN">My Front End Development Certification</a></li>
+              <li><a href="#" id="udemyBTN">Latest Udemy Certification</a></li>
+            </ul>
+            <div class="report-card treehouse"></div>
+            <div class="fcc-container">
+              <a href="http://freecodecamp.com/milesaylward" target="_blank">
+                <img src="images/front.png" alt="freeCodeCamp Certification" class="fcc-cert">
+              </a>
+            </div>
+            <div class="udemy-container">
+              <a href="https://www.udemy.com/user/miles-aylward/" target="_blank">
+                <img src="images/modernReact.png" alt="Modern React Certification" class="udemy-cert">
+              </a>
+            </div>
+					</div>
+					<span class="icons icon-cancel"></span>
+				</section>
+				<section>
+					<div class="home-box">
+						<h2>
+              <i class="icons icon-envelope"></i>
+              <br>
+              Contact
+            </h2>
+					</div>
+					<div class="app-content">
+            <h2>How to reach me</h2>
+            <p>When I'm not spending every waking hour coding I love to be outside in nature but I always keep my phone handy so you can always reach me by:</p>
+            <div class="contact-container">
+              <div class="contact">
+                <h3>DM'ing me on twitter</h3>
+                <a href="https://twitter.com/messages/compose?recipient_id=2754860705" class="twitter-dm-button" data-screen-name="TheCodingIrish" data-show-count="false">Message @TheCodingIrish</a>
+              </div>
+              <div class="contact">
+                <h3>Connecting on LinkedIn</h3>
+                <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+                <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/miles-aylward-a23694126" data-format="inline" data-related="false"></script>
+              </div>
+              <div class="contact">
+                <h3>Or check out my Repos</h3>
+                  <div class="github-card" data-user="milesaylward"></div>
+                  <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+              </div>
+            </div>
+            <div class="opportunity">
+              <p class="opp-text">If you made it this far and want to offer me the Opportunity to work with you or your Company</p>
+              <p class="opp-text">Here are more offical means of communication</p>
+            </div>
+            <div class="contact-container">
+              <div class="contact">
+                <i class="icon-mobile contact-icon"></i>
+                <p class="opp-text"><a href="tel:7573390985">(757)339-0985</a></p>
+              </div>
+              <div class="contact">
+                <i class="icon-envelope contact-icon"></i>
+                <p class="opp-text"><a href="mailto:miles.aylward@gmail.com">Email Me!</a></p>
+              </div>
+            </div>
+					</div>
+					<span class="icons icon-cancel"></span>
+				</section>
+				<!-- Panel items for the works -->
+				<div class="panel-items" id="panel-project-items">
+					<div data-panel="panel-1">
+						<div class="container-div">
+              <div class="portfolio-head-container">
+  							<img class="work-images" src="images/route247.png" />
+  							<a href="http://www.route247.org/" target="_blank" class="portfolio-link">
+                  <h3 class="portfolio-header">
+                    Route247
+                    <i class="icon-external-link"></i>
+                  </h3>
+                </a>
+  							<p>
+                  Route247 was one of my first real world projects and I was very excited to be involved in their cause.
+                  Route247 provides students with an online community, resources and real-world opportunities to help them succeed in their education.<br><br>
+                  Built using: JavaScript, Chart.js, HTML, CSS, Wordpress, PHP.
+                </p>
+              </div>
+						</div>
+					</div>
+					<div data-panel="panel-2">
+						<div class="container-div">
+              <div class="portfolio-head-container">
+  							<img class="work-images" src="images/ecds.png" />
+  							<a href="http://www.eastcoastdrivingschoolva.com/" target="_blank" class="portfolio-link">
+                  <h3 class="portfolio-header">
+                    East Coast Driving School
+                    <i class="icon-external-link"></i>
+                  </h3>
+                </a>
+  							<p>
+                  A good friend, wanted to update her driving school website but didn't have the money to hire a developer.
+                  She hadn't known I was studying web devlopment so I made a site and surprised her with it.<br><br>
+                  Built using: HTML, CSS, Wordpress, PHP
+                </p>
+              </div>
+						</div>
+					</div>
+					<div data-panel="panel-3">
+						<div class="container-div">
+              <div class="portfolio-head-container">
+  							<img class="work-images" src="images/psd2html.png" />
+  							<a href="http://codepen.io/milesaylward/full/XpMapM/" target="_blank" class="portfolio-link">
+                  <h3 class="portfolio-header">
+                    PSD to HTML Conversion
+                    <i class="icon-external-link"></i>
+                  </h3>
+                </a>
+  							<p>
+                  Before being accepted to be a Contract Web Developer at Golden Volunteer I was given a fun code challenge.
+                  Take a psd from Daniel Snell and as quickly and efficiently create a static responsive HTML page.<br><br>
+                  Built used, HTML, CSS, Flexbox, Bootstrap
+                </p>
+              </div>
+						</div>
+					</div>
+					<div data-panel="panel-4">
+						<div class="container-div">
+              <div class="portfolio-head-container">
+  							<h3 class="portfolio-header">Simon Says</h3>
+  							<p>Fully functional and very addictive Simon Game built for fun and learning.<br><br>Built using, HTML, CSS, JQuery.</p>
+              </div>
+              <iframe src="http://goldentest.x10host.com/" width="100%" height="600px"></iframe>
+						</div>
+					</div>
+          <div data-panel="panel-5">
+						<div class="container-div">
+              <div class="portfolio-head-container">
+  							<h3>Markdown Previewer</h3>
+  							<p>A real-time github Github Flavored Markdown Previewer.<br><br>Built using ReactJs and the npm module Marked</p>
+              </div>
+              <div id='MarkdownRoot'></div>
+						</div>
+					</div>
+          <div data-panel="panel-6">
+						<div class="container-div">
+              <div class="portfolio-head-container">
+    						<h3>Tic Tac Toe</h3>
+                <p>
+                  A simple Player vs Compouter Tic Tac Toe game. Still a work in progress to make impossible to win using Mini Max algorithm<br><br>Built using: HTML, CSS, JQuery.
+                </p>
+              </div>
+              <button class="btn-primary center-block" id="reset">Reset Game</button>
+            <div class="col-xs-12 text-center winner"></div>
+              <div class="board-container">
+                <div class="game-start">
+                  <p class="prompt">Would you like to be:</p>
+                  <p class="prompt"><button class="choice" id="X">X</button> or <button class="choice" id="O">O</button></p>
+                </div>
+                <div class="button-container">
+                  <div class="row">
+                    <div class="game-buttons one" id="0"></div>
+                    <div class="game-buttons two" id="1"></div>
+                    <div class="game-buttons three" id="2"></div>
+                  </div>
+                  <div class="row">
+                    <div class="game-buttons four" id="3"></div>
+                    <div class="game-buttons five" id="4"></div>
+                    <div class="game-buttons six" id="5"></div>
+                  </div>
+                  <div class="row">
+                    <div class="game-buttons seven" id="6"></div>
+                    <div class="game-buttons eight" id="7"></div>
+                    <div class="game-buttons nine" id="8"></div>
+                  </div>
+                </div>
+              </div>
+						</div>
+					</div>
+          <div data-panel="panel-7">
+						<div class="container-div">
+              <div class="portfolio-head-container">
+  							<h3>React/Redux Weather App</h3>
+  							<p>
+                  My React weather app is fairly simple and makes
+                  use of a few outside components including React-Google-Maps
+                  and sparklines for generating the map and bar graphs that
+                  show a line through the average temperature, which is displayed
+                  beneath the charts showing how much above or below the average
+                  the next five days Temperature, pressure, and humidity will be.
+                  Put the name of your or any city in America to check the weather!
+                </p>
+              </div>
+              <div id="weatherApp"></div>
+						</div>
+					</div>
+          <div data-panel="panel-8">
+						<div class="container-div">
+              <div class="portfolio-head-container">
+                <h3>Youtube App</h3>
+  							<p>Youtube videos brought to you live in my portfolio using pure react and YTS search check out some music or your favorite video!</p>
+              </div>
+              <div id="youtubeApp"></div>
+						</div>
+					</div>
+          <div data-panel="panel-9">
+						<div class="container-div">
+              <div class="profile-head-container">
+                <h3>Simple Blog App</h3>
+  							<p>Check out the post below titled "My React Blog" for the description!</p>
+              </div>
+              <div id="blogApp"></div>
+            </div>
+					</div>
+          <div data-panel="panel-10">
+            <div class="container-div">
+              <div class="profile-head-container">
+                <h3>Lyric Writing App</h3>
+                <p>Let's face it, GraphQL is the talk of the town right now.
+                  It makes overfetching data seem almost neantherthal.
+                  Very obviously paired with my all-time favorite JavScript library, also by the minds of Facebook Developers, ReactJS.
+                  This App makes use of Mongoose and Apollo Client to make use of Schema templates and make GraphQL play nice with React.
+                  Add your favorite songs lyrics so we can all check them out!<br>Built using: ReactJS, GraphQL, MongoDB, Apollo Client, and Axios for that data grabbing!
+                </p>
+              </div>
+              <div id="lyricalApp">
+                <iframe src="https://boiling-mesa-86920.herokuapp.com/#/" width=100% height="400px"></iframe>
+              </div>
+            </div>
+          </div>
+					<nav>
+  						<span class="next-project">&gt; Next Project</span>
+  						<span class="icons icon-cancel"></span>
+					</nav>
+				</div>
+			</div>
+		</div><!-- /app-container -->
+		<script src="js/layout.js"></script>
+    <script src="js/typewriter.js" charset="utf-8"></script>
+    <script src="markdownPreviewer/markdown.js" charset="utf-8"></script>
+    <script src="tic-tac-toe/tic-tac-toe.js" charset="utf-8"></script>
+    <script src="weatherApp/weatherApp.js" charset="utf-8"></script>
+    <script src="youtubeApp/youtube.js" charset="utf-8"></script>
+    <script src="blog/blog.js" charset="utf-8"></script>
+    <script src="reportCard/js/reportcard.js"></script>
+    <script src="js/education.js" charset="utf-8"></script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<script>
+			$(function() {
+			   layout.init();
+			});
+		</script>
+	</body>
+</html>

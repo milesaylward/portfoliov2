@@ -1,0 +1,109 @@
+#main-table{
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.board-container{
+  width: 450px;
+  height: 450px;
+  background-color: #4E648E;
+  margin: 5px auto;
+  border: 30px solid #152B55;
+  border-radius: 20px;
+}
+
+.row{
+  margin-left: 10px;
+}
+
+.prompt{
+  color: rgba(255,255,255,.75);
+  font-size: 2em !important;
+  font-family: 'Amatic SC', cursive;
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.choice{
+  background: none;
+  border: none;
+}
+
+button:focus{
+  outline: none;
+}
+.choice:hover{
+  color: rgb(255,255,255);
+  border: 1px dashed rgb(255,255,255);
+  border-radius: 50%;
+}
+
+.game-start{
+  margin-top: 0%;
+}
+.button-container{
+  margin-top: 10px;
+}
+.game-buttons{
+  vertical-align: top;
+  background: transparent;
+  display: inline-block;
+  margin-left: -3px;
+  margin-bottom: 1px;
+  padding-left: 40px;
+  border: 1px solid black;
+  height: 125px;
+  width: 125px;
+  border-color: rgba(0,0,0,.5);
+  border-width: 2px;
+  color: white;
+  font-size: 5em;
+  font-family: 'Slabo 27px', serif;
+}
+
+.game-buttons:active{
+  padding: 0;
+  margin: 0;
+
+}
+
+.one{
+  border-left: none;
+  border-top: none;
+}
+
+.two{
+  border-top: none;
+}
+
+.three{
+  border-top: none;
+  border-right: none;
+}
+
+.four{
+  border-left: none;
+}
+
+.six{
+  border-right: none;
+}
+
+.seven{
+  border-left: none;
+  border-bottom: none;
+}
+
+.eight{
+  border-bottom: none;
+}
+
+.nine{
+  border-bottom: none;
+  border-right: none;
+}
+
+
+.button-container{
+  opacity: 0;
+}

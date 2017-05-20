@@ -1,0 +1,12 @@
+.portfolio-link{
+  padding: 0;
+  display: inline-block;
+}
+.portfolio-header{
+  display: inline-block;
+}
+
+.work-images{
+  max-width: 400px;
+  margin: 0 auto;
+}
